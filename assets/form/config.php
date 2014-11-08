@@ -4,11 +4,11 @@
  */
 
 //where we would like to send email
-$recipientEmail = 'recipient@mail.com';
-$recipientName = 'Recipient Name';
+$recipientEmail = 'john.zendejas@pilotlogistics.com';
+$recipientName = 'John Zendejas';
 
 //Address which will be visible in "From" field
-$fromEmail = 'donotreply@mail.com';
+$fromEmail = 'donotreply@pilotlogistics.com';
 $fromName = 'Site Admnistrator';
 
 //Validation error messages
