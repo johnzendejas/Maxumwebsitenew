@@ -430,7 +430,7 @@
                                     <i class="fa fa-map-marker fa-lg"></i>
                                 </span>
                                 <span class="table-cell">
-                                    <a class="magnific-popup" data-type="iframe" href="https://www.google.com/maps/place/19501+S+Santa+Fe+Ave,+Compton,+CA+90221/@33.854076,-118.214864,15z/data=!4m2!3m1!1s0x80dd34a379aec4a7:0x48eb9ba754ca5fa5">19501 S Santa Fe Ave. Rancho Dominguez, CA 90221</a>
+                                    <a  target="_blank" href="https://goo.gl/maps/vmSqb">19501 S Santa Fe Ave. Rancho Dominguez, CA 90221</a>
                                 </span>
                     </div>
                 </li>
@@ -469,33 +469,44 @@
         <div class="col-sm-6">
             <div class="successMessage alert alert-success" style="display: none">
                 <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                Thank You!
+                Thank You! You'll be contacted shortly.
             </div>
             <div class="errorMessage alert alert-danger" style="display: none">
                 <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
                 Oops! An error occured. Please try again later.
             </div>
 
-            <form role="form" action="assets/form/send.php" method="post" class="contactForm validateIt"
-                  data-email-subject="Contact Form" data-show-errors="true">
+            <form role="form" action="assets/form/send.php" method="post" class="contactForm validateIt" data-email-subject="Contact Form" data-show-errors="true">
                 <div class="row padding-xs-top">
                     <div class="col-md-6 col-sm-6">
                         <div class="form-group form-group-float-label">
-                            <input id="contact_name" required type="text" name="field1[]" class="form-control input-lg">
+                            <input id="contact_name" placeholder="Name" required="" type="text" name="field[]" class="form-control input-lg">
                             <label for="contact_name">Name *</label>
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-6">
                         <div class="form-group form-group-float-label">
-                            <input id="contact_email" required type="email" name="field2[]" class="form-control input-lg">
+                            <input id="contact_email" placeholder="Email" required="" type="email" name="field[]" class="form-control input-lg">
                             <label for="contact_email">Email *</label>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <div class="form-group form-group-float-label">
+                            <input id="contact_phone" placeholder="Phone Number" required="" type="number" name="field[]" class="form-control input-lg">
+                            <label for="contact_phone">Phone *</label>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <div class="form-group form-group-float-label">
+                            <input id="contact_subject" placeholder="Subject" required="" type="text" name="field[]" class="form-control input-lg">
+                            <label for="contact_subject">Subject *</label>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12">
                         <div class="form-group form-group-float-label">
-                            <textarea id="contact_message" class="form-control input-lg" rows="4" name="field3[]" required></textarea>
+                            <textarea id="contact_message" placeholder="Message" class="form-control input-lg" rows="4" name="field[]" required=""></textarea>
                             <label for="contact_message">Message *</label>
                         </div>
                     </div>
@@ -506,6 +517,7 @@
                     </div>
                 </div>
             </form>
+
         </div>
     </div>
 </div>
@@ -518,7 +530,7 @@
     </button>
     <div class="googlemapcontainer">
         <!--<div class="googlemap" data-location="East Rancho Dominguez" data-height="460" data-offset="0" data-zoom="16"></div>-->
-    <iframe class="googlemap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3313.3807921577845!2d-118.21486400000006!3d33.85407600000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dd34a379aec4a7%3A0x48eb9ba754ca5fa5!2s19501+S+Santa+Fe+Ave%2C+Compton%2C+CA+90221!5e0!3m2!1sen!2sus!4v1415688460660" width="1200" height="600" frameborder="0" style="border:0"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3313.380792157794!2d-118.21486400000002!3d33.854076000000006!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dd34a379aec4a7%3A0x48eb9ba754ca5fa5!2s19501+S+Santa+Fe+Ave%2C+Compton%2C+CA+90221!5e0!3m2!1sen!2sus!4v1417763045659" width="1500" height="450" frameborder="0" style="border:0"></iframe>
     </div>
 </div>
 
@@ -667,7 +679,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-6">
-                Copyright 2014 © Maxum Petroleum. All rights reserved - <a href="#" target="_blank">Pilot Logistics Services</a>
+                Copyright 2014 © Maxum Petroleum. All rights reserved - <a href="#" target="_blank">Pilot Thomas Logistics</a>
             </div>
             <div class="col-sm-6 text-right">
                 <ul class="list-inline">
