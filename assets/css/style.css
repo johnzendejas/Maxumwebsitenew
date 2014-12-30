@@ -10755,3 +10755,10 @@ blockquote.type2 footer cite {
 .widget ul > li a:active {
   color: #2b8be9;
 }
+/*checkmarks-jz*/
+ul.checkmark li {
+       padding-bottom: 10px;
+  }
+.checkmark li {list-style:none}
+.checkmark li:before {content:"\2714"}
+.checkmark li {color: #1571cc}
